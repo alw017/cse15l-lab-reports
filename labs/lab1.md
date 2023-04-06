@@ -6,7 +6,7 @@
 Find your associated CSE15l account and change the password for the account. You can do this on the website:  
 [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 
-![photo 1](/assets/lab1/1.png)
+![photo 1](../assets/lab1/1.png)
 
 You should see this once you get on the website. In the top two boxes, labeled "Username" and "Student ID," fill in your school account username (the one you sign into duo with) and student id, with the A, but in lowercase.   
 
@@ -17,7 +17,7 @@ Student ID: a12345678
 
 After looking up your account, you should see something like this:
 
-![photo 2](/assets/lab1/2.png)  
+![photo 2](../assets/lab1/2.png)  
 
 Under the **Additional Accounts** header, look for an an account name that starts with "cse15l", followed by the quarter and year that you are taking the class, and two random letters.
 
@@ -42,7 +42,7 @@ If you need to install VSCode, head to [https://code.visualstudio.com/download](
 
 You should see something like this when you finish installing VSCode, and open it for the first time.
 
-![photo 3](/assets/lab1/3.png)
+![photo 3](../assets/lab1/3.png)
 
 ### git bash
 
@@ -66,7 +66,7 @@ Type in "yes". This is expected for the first time connecting to a new server.
 
 Then you will be prompted with something like this:
 
-![photo 4](/assets/lab1/4.png)
+![photo 4](../assets/lab1/4.png)
 
 Enter the password that you set earlier. It will not indicate that you are typing, but you are still typing.
 
@@ -88,7 +88,7 @@ Here's a list of commands that I used:
 
  Here was the result that I got for `ls -lat` executed in my home directory.
 
- ![photo 6](/assets/lab1/6.png)
+ ![photo 6](../assets/lab1/6.png)
 
 
 
