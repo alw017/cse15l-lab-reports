@@ -81,12 +81,12 @@ Now that you have logged in, you can try some commands!
 
 Here's a list of commands that I used:
 
- - `cd`
- - `cd ~`
- - `ls -lat`
- - `ls -lsra`
- - `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
- - `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+ - `cd` - change directory to home.
+ - `cd ~` - change directory to home.
+ - `ls -lat` - list with optional arguments l, a, and t in the working directory.
+ - `ls -lsra` - list with optional arguments l, s, r, a in the working directory.
+ - `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` - copy a file from the first path to the second path.
+ - `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` - print out the contents of the file at the given path.
 
  Here was the result that I got for `ls -lat` executed in my home directory.
 
