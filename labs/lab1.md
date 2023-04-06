@@ -71,7 +71,9 @@ Then you will be prompted with something like this:
 Enter the password that you set earlier. It will not indicate that you are typing, but you are still typing.
 
 When you login successfully, you will see a lot of output, followed by your username in some brackets at the bottom.  
-This means you successfully logged in. 
+This means you successfully logged in. This is what I saw as I logged in. You might see more output.
+
+![photo 5](../assets/lab1/5.png)
 
 ## Step 3 - Trying Some Commands
 
