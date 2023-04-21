@@ -143,7 +143,7 @@ Inputting list `{3}` should return `{3}` and does.
 JUnit Output:
 ![junitscreenshot](../assets/lab2/2b.png)
 
-Note that there were some other tests in the code, but the relevant onethe failed was the same as on one I explained above.
+Note that there were some other tests in the code, but the relevant one that failed was the same as on one I explained above.
 
 ### The Bug:
 Before:
