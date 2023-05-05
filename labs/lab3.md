@@ -8,6 +8,8 @@ Note: all sources are cited at the bottom of this document.
 ## Option 1 - `-E` or `--extendedregexp`
 This option tells perl to interpret `PATTERN` differently than default. By default, bash interprets the meta characters + ? { | ( and ) literally, instead of using their meaning in regular expressions, and thus need to be escaped with an escape character to be interpreted properly. This option allows the interpretation of the these characters without having to put an escape character before every single one. Otherwise, the command acts exactly the same as default.
 
+I found this option from the `man` command.
+
 ### Example 1
 ```
 [cs15lsp23dm@ieng6-203]:biomed:135$ grep -E "B[a-z]{3}[aeiou]+" rr74.txt
@@ -48,6 +50,8 @@ This command matched all lines that had words with 3 vowels consecutively. In th
 
 ## Option 2 - `-c` or `--count`
 
+I found this option using the `man` command.
+
 ### Example 1
 
 ```
@@ -64,6 +68,8 @@ Instead of printing out all of the lines that matched the regex, grep instead ju
 This command found all of the lines with a whitespace followed by a capital or lowercase z. This is useful for counting the number of occurrences of words that start with z in a file.
 
 ## Option 3 - `-n` or `--line-number`
+
+I found this option using the `man` command.
 
 ### Example 1
 ```
@@ -88,6 +94,8 @@ This command finds all matches were either the word oxygen or oxide are used. Th
 ```
 This command finds all occurences of the word "pressure" in rr74.txt, prints the contents of the line containing the match, along with the line number. This acts like a search function in Microsoft Word, allowing you to find and locate occurences of certain words.
 ## Option 4 - `-r` or `--recursive`
+
+I found this option using the `man` command.
 
 ### Example 1
 ```
@@ -118,6 +126,8 @@ This command looks in all files within the 911report directory for occurrences o
 1146
 ```
 Going a little bit further with this command, we use grep to find all occurences of a whitespace followed by a capital or lowercase q, and then pipe that into awk which sums up the number for each file that grep outputs. This gives us the sum of all of the lines in all of the files in the directory 911report that presumably have a word that starts with Q. This is useful for getting more information about large textfiles.
+
+Note: I looked in source 2 to figure out how to use awk in this situation.
 
 Sources:
 
