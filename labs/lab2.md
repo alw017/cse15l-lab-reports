@@ -155,6 +155,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
+
 After:
 ```java
 static void reverseInPlace(int[] arr) {
